@@ -1,0 +1,15 @@
+# Python / Node / OS artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+node_modules/
+.DS_Store
+Thumbs.db
+
+# Local scratch & rendered diagram previews
+out/
+.tmp/
+_preview.html
+fig*-light.png
+fig*-dark.png
+phone-top.png

@@ -1,0 +1,5 @@
+interface:
+  display_name: "Arena"
+  short_description: "设计擂台：异厂模型各出草图，盲评后选底版并嫁接，只到设计。"
+policy:
+  allow_implicit_invocation: true

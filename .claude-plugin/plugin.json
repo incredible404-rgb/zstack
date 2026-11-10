@@ -1,0 +1,38 @@
+{
+  "name": "zstack",
+  "version": "0.1.0",
+  "description": "Personal multi-agent engineering workflow skills: What/How grilling, multi-model design arena, autonomy guardrails, bug diagnosis, SVG architecture diagrams, session retro, and skill-debt pruning.",
+  "author": {
+    "name": "incredible404-rgb",
+    "url": "https://github.com/incredible404-rgb"
+  },
+  "homepage": "https://github.com/incredible404-rgb/zstack",
+  "repository": "https://github.com/incredible404-rgb/zstack",
+  "license": "MIT",
+  "keywords": [
+    "zstack",
+    "agent-skills",
+    "workflow",
+    "grilling",
+    "arena",
+    "retro",
+    "architecture-diagram",
+    "prompt-engineering",
+    "governance"
+  ],
+  "skills": [
+    "./skills/arena",
+    "./skills/architecture-diagram",
+    "./skills/diagnosing-bugs",
+    "./skills/grill",
+    "./skills/karpathy-guidelines",
+    "./skills/memory-routing",
+    "./skills/owner-mode",
+    "./skills/retro",
+    "./skills/skill-pruning",
+    "./skills/universal-model-prompting",
+    "./skills/wait-what",
+    "./skills/windows-shell",
+    "./skills/writing-for-agents"
+  ]
+}

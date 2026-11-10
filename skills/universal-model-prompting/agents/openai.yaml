@@ -1,0 +1,5 @@
+interface:
+  display_name: "Universal Model Prompting"
+  short_description: "模型中立的提示词设计、审计与跨供应商迁移：可移植核心 + 能力适配层。"
+policy:
+  allow_implicit_invocation: true

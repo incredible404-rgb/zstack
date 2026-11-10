@@ -1,0 +1,5 @@
+interface:
+  display_name: "Owner Mode"
+  short_description: "自治边界与工程取舍：先问还是直接做、删还是留、验到多深、怎么汇报。"
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,5 @@
+interface:
+  display_name: "Architecture Diagram"
+  short_description: "手工排版自包含内联 SVG 全景图与机制图，兼容亮暗主题、流向筛选与隐私打码。"
+policy:
+  allow_implicit_invocation: true

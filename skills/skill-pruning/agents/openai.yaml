@@ -1,0 +1,5 @@
+interface:
+  display_name: "Skill Pruning"
+  short_description: "按真实读取证据精简技能库、收敛触发简介预算并清理过期内容债。"
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,5 @@
+interface:
+  display_name: "Grill"
+  short_description: "Stress-test plans three questions a round, separating What from How."
+policy:
+  allow_implicit_invocation: true

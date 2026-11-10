@@ -1,0 +1,5 @@
+interface:
+  display_name: "Retro"
+  short_description: "复盘会话卡点：经验沉淀进共享记忆，双向门当场改，单向门进待批台账。"
+policy:
+  allow_implicit_invocation: true

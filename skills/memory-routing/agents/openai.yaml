@@ -1,0 +1,5 @@
+interface:
+  display_name: "Memory Routing"
+  short_description: "Strict 3-tier lookup: Repo SSOT first, distilled memory second, raw transcripts third."
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,5 @@
+interface:
+  display_name: "Karpathy Guidelines"
+  short_description: "Surface assumptions, keep code simple, make surgical edits, verify goals."
+policy:
+  allow_implicit_invocation: true

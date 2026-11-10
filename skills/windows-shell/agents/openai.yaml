@@ -1,0 +1,5 @@
+interface:
+  display_name: "Windows Shell"
+  short_description: "Windows 双壳识别（bash / pwsh 7）、编码、CRLF 与路径转义避坑指南。"
+policy:
+  allow_implicit_invocation: true

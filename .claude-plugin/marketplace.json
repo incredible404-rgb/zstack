@@ -1,0 +1,24 @@
+{
+  "name": "incredible404-rgb",
+  "owner": {
+    "name": "incredible404-rgb",
+    "url": "https://github.com/incredible404-rgb"
+  },
+  "description": "zstack: opinionated multi-agent engineering & governance workflow skills.",
+  "plugins": [
+    {
+      "name": "zstack",
+      "source": "./",
+      "description": "Opinionated agent engineering workflow skills: grill, arena, owner-mode, diagnosing-bugs, architecture-diagram, retro, skill-pruning, and more.",
+      "category": "engineering",
+      "keywords": [
+        "zstack",
+        "workflow",
+        "skills",
+        "arena",
+        "grilling",
+        "retro"
+      ]
+    }
+  ]
+}

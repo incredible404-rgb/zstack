@@ -1,0 +1,5 @@
+interface:
+  display_name: "Wait, what?"
+  short_description: "看不懂 agent 的回复、推送或报告时，用大白话重讲一遍。"
+policy:
+  allow_implicit_invocation: true

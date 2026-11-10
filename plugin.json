@@ -1,0 +1,21 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "zstack",
+  "version": "0.1.0",
+  "description": "Align What before How, pit multi-vendor sketches against each other in an arena, verify with runtime evidence, and prune prompt/skill debt continuously.",
+  "author": {
+    "name": "incredible404-rgb"
+  },
+  "homepage": "https://github.com/incredible404-rgb/zstack",
+  "repository": "https://github.com/incredible404-rgb/zstack",
+  "license": "MIT",
+  "keywords": [
+    "zstack",
+    "workflow",
+    "arena",
+    "grill",
+    "retro",
+    "skill-pruning",
+    "architecture-diagram"
+  ]
+}

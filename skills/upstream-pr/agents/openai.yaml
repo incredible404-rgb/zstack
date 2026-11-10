@@ -1,0 +1,5 @@
+interface:
+  display_name: "Upstream PR"
+  short_description: "向外部开源仓库提 PR：维护者视角七项自审、去 AI 味审查回复与假冲突排查。"
+policy:
+  allow_implicit_invocation: true

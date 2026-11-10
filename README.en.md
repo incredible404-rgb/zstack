@@ -42,6 +42,7 @@ flowchart LR
         K["karpathy-guidelines<br/>Explicit Assumptions · Surgical Edits"]
         D["diagnosing-bugs<br/>Tight Red-Capable Loop"]
         W["windows-shell<br/>bash / pwsh 7 Guardrails"]
+        UPR["upstream-pr<br/>OSS PR Pre-Flight & Review Loop"]
         R["REVIEW.md<br/>3-Pass Cross-Vendor Review"]
     end
 
@@ -63,7 +64,7 @@ flowchart LR
     S4 -. Distilled pointers & lessons .-> S1
 ```
 
-### Included Skills (13)
+### Included Skills (14)
 
 | Phase | Skill | When It Fires / Example Trigger | What It Does |
 | --- | --- | --- | --- |
@@ -73,6 +74,7 @@ flowchart LR
 | **Execute & Debug** | [`karpathy-guidelines`](skills/karpathy-guidelines/SKILL.md) | Non-trivial coding, refactoring, architecture | Surface assumptions, simplicity first, surgical diffs, verifiable completion criteria |
 | **Execute & Debug** | [`diagnosing-bugs`](skills/diagnosing-bugs/SKILL.md) | `diagnose`, `debug this`, flaky/slow/broken runs | 6-phase gated loop: tight red-capable signal -> minimal repro -> falsifiable hypotheses -> tagged probes -> frozen red-green test |
 | **Execute & Debug** | [`windows-shell`](skills/windows-shell/SKILL.md) | Running shell commands or scripts on Windows | Ships `scripts/doctor.ps1`; detects real host shell (`bash` vs `pwsh 7`), prevents ACP 936/UTF-8 garbling, CRLF diffs, and MSYS path mangling |
+| **Execute & Debug** | [`upstream-pr`](skills/upstream-pr/SKILL.md) | Opening OSS PRs, addressing maintainer reviews, conflicts | 7-point maintainer pre-flight, incremental review commits, human-tone PR replies without AI slop, and false-conflict checks |
 | **Author & Visuals** | [`writing-for-agents`](skills/writing-for-agents/SKILL.md) | Writing/editing `SKILL.md`, `AGENTS.md`, rules | Context pointers, context vs. cognitive load, progressive disclosure, completion demand, leading words |
 | **Author & Visuals** | [`universal-model-prompting`](skills/universal-model-prompting/SKILL.md) | Designing/auditing system prompts or migrating models | Splits prompts into an outcome-first portable contract + verified provider capability adapter + side-by-side eval matrix |
 | **Author & Visuals** | [`architecture-diagram`](skills/architecture-diagram/SKILL.md) | System overview, data-flow, or deployment diagrams | Ships `svgkit.py` + headless `render_check.js`: hand-placed inline SVG drafting sheets with dark/light tokens, flow filters, and privacy redaction scan |
@@ -81,7 +83,7 @@ flowchart LR
 | **Retro & Govern** | [`retro`](skills/retro/SKILL.md) | `/retro`, post-session reflection | Anchors friction to exact session timestamps across 9 classes; executes reversible two-way doors immediately, logs one-way doors, verifies memory recall |
 | **Retro & Govern** | [`skill-pruning`](skills/skill-pruning/SKILL.md) | Periodic skill-library audit & deduplication | Ships 0-token `scripts/skill_evidence.py`: measures 45-day session hits, flags `>500B` descriptions & `>500`-line bodies, retires duplicate triggers |
 
-> **Language Note**: Several skills in `zstack` (`arena`, `owner-mode`, `windows-shell`, `universal-model-prompting`, `architecture-diagram`, `wait-what`, `retro`, `skill-pruning`) are authored primarily in Simplified Chinese with bilingual English/Chinese trigger keywords, while `grill`, `memory-routing`, `writing-for-agents`, `diagnosing-bugs`, and `karpathy-guidelines` are in English. Frontier models follow both seamlessly regardless of your chat language.
+> **Language Note**: Several skills in `zstack` (`arena`, `owner-mode`, `windows-shell`, `upstream-pr`, `universal-model-prompting`, `architecture-diagram`, `wait-what`, `retro`, `skill-pruning`) are authored primarily in Simplified Chinese with bilingual English/Chinese trigger keywords, while `grill`, `memory-routing`, `writing-for-agents`, `diagnosing-bugs`, and `karpathy-guidelines` are in English. Frontier models follow both seamlessly regardless of your chat language.
 
 ### Companion Templates (`templates/`)
 

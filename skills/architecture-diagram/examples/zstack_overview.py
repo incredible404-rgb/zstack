@@ -71,7 +71,7 @@ def render_html() -> str:
       <p class="lede">把「对齐 What → 多模型擂台草图 → 紧闭环执行与异厂复核 → 会话复盘与技能清债」收成一套薄指针、可组合的跨客户端技能包。</p>
     </div>
     <dl class="tb-fields">
-      <div><dt>范围</dt><dd>13 个技能 + 2 份核心模板</dd></div>
+      <div><dt>范围</dt><dd>14 个技能 + 2 份核心模板</dd></div>
       <div><dt>客户端</dt><dd>Claude Code · Codex · Cursor · pi</dd></div>
       <div><dt>协议</dt><dd>MIT（含上游致谢 NOTICE）</dd></div>
       <div><dt>打码示例</dt><dd><span class="redact-chip">私有台账</span> 演示遮罩样式</dd></div>

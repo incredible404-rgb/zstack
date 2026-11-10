@@ -1,6 +1,6 @@
 {
   "name": "zstack",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Personal multi-agent engineering workflow skills: What/How grilling, multi-model design arena, autonomy guardrails, bug diagnosis, SVG architecture diagrams, session retro, and skill-debt pruning.",
   "author": {
     "name": "incredible404-rgb",
@@ -31,6 +31,7 @@
     "./skills/retro",
     "./skills/skill-pruning",
     "./skills/universal-model-prompting",
+    "./skills/upstream-pr",
     "./skills/wait-what",
     "./skills/windows-shell",
     "./skills/writing-for-agents"

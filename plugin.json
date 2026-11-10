@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "zstack",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Align What before How, pit multi-vendor sketches against each other in an arena, verify with runtime evidence, and prune prompt/skill debt continuously.",
   "author": {
     "name": "incredible404-rgb"

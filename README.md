@@ -42,6 +42,7 @@ flowchart LR
         K["karpathy-guidelines<br/>假设显式化 · 外科手术改动"]
         D["diagnosing-bugs<br/>紧反馈闭环排障"]
         W["windows-shell<br/>bash / pwsh 7 双壳避坑"]
+        UPR["upstream-pr<br/>开源 PR 自审与审查回复"]
         R["REVIEW.md<br/>异厂三遍独立复核"]
     end
 
@@ -63,7 +64,7 @@ flowchart LR
     S4 -. 提炼指针与经验回流 .-> S1
 ```
 
-### 13 个收录技能一览
+### 14 个收录技能一览
 
 | 阶段 | 技能 | 触发时机 / 口令示例 | 核心作用 |
 | --- | --- | --- | --- |
@@ -73,6 +74,7 @@ flowchart LR
 | **实现与排障** | [`karpathy-guidelines`](skills/karpathy-guidelines/SKILL.md) | 非琐碎编码、重构、架构改动 | 显式声明假设、最小够用实现、只动目标行的外科手术修改、定义可验证完成标准 |
 | **实现与排障** | [`diagnosing-bugs`](skills/diagnosing-bugs/SKILL.md) | 「排查」「debug this」、遇到报错/跑挂/变慢 | 六阶段纪律：先搭可泛红的紧闭环 → 最小化复现 → 3–5 个可证伪假设 → 打标探针 → 先红后绿回归测试 |
 | **实现与排障** | [`windows-shell`](skills/windows-shell/SKILL.md) | Windows 下跑命令、写 `.ps1`/`.sh`、遇乱码或转义坑 | 附 `scripts/doctor.ps1`；先认宿主壳（bash vs pwsh 7），解决 ACP 936/65001、CRLF、MSYS 路径改写与商店垫片挂死 |
+| **实现与排障** | [`upstream-pr`](skills/upstream-pr/SKILL.md) | 向外部开源仓提 PR、改审查意见、回评论、解冲突 | 维护者视角七项自审、追加 commit 增量重审、去 AI 味工程师回复口吻、合并假冲突排查与日志卫生 |
 | **提示与表达** | [`writing-for-agents`](skills/writing-for-agents/SKILL.md) | 编写或修改 `SKILL.md`、`AGENTS.md`、项目规则 | 上下文指针（Context Pointers）、双重负载权衡、信息层级与渐进式披露、引导词（Leading Words） |
 | **提示与表达** | [`universal-model-prompting`](skills/universal-model-prompting/SKILL.md) | 设计/审计复杂 System Prompt、人格或跨模型迁移 | 将提示词拆成「可移植行为合同」与「供应商能力适配层」，附跨模型同题验收矩阵与人格测试套件 |
 | **提示与表达** | [`architecture-diagram`](skills/architecture-diagram/SKILL.md) | 「画个架构图」「系统全景图」「数据流图」 | 附 `svgkit.py` 与无头浏览器 `render_check.js`：手工排版内联 SVG 全景图 + 机制图，支持流向筛选、亮暗主题与分享打码扫描 |
